@@ -350,8 +350,8 @@ contract ElonMarsToken is Context, IERC20, Ownable {
 
 
   constructor() public {
-    _name = "ElonMarsTest";
-    _symbol = "ELONMARSTest";
+    _name = "ElonMars";
+    _symbol = "ELONMARS";
     _decimals = 9;
     _totalSupply =  1000000000 * 10**6 * 10**9;
     _balances[msg.sender] = _totalSupply;
